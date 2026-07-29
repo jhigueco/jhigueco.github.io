@@ -1,0 +1,45 @@
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
+minimal_mistakes_skin: "default"
+
+locale: "en-US"
+title: "José Higueras"
+title_separator: "-"
+name: "José Higueras"
+description: "Academic website of José Higueras"
+url: "https://jhigueco.github.io"
+baseurl: ""
+
+repository: "jhigueco/jhigueco.github.io"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+author:
+  name: "José Higueras"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Economist working in microeconomic theory, information economics, and industrial organization."
+  location: ""
+  email: ""
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hjose1376@gmail.com"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "https://drive.google.com/file/d/1aUbVbGhV1TDGFkxiYTNk3JiOge_VYuP8/view?usp=share_link"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jhigueco"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+include:
+  - _pages
