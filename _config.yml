@@ -3,10 +3,10 @@ remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "default"
 
 locale: "en-US"
-title: "José Higueras"
+title: "Jose Higueras"
 title_separator: "-"
-name: "José Higueras"
-description: "Academic website of José Higueras"
+name: "Jose Higueras"
+description: "Academic website of Jose Higueras"
 url: "https://jhigueco.github.io"
 baseurl: ""
 
