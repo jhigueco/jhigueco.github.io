@@ -17,7 +17,7 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name: "José Higueras"
+  name: "Jose Higueras"
   avatar: "/assets/images/Profile.png"
   bio: "Assistant Professor, Penn State"
   location: "State College, PA, USA"
