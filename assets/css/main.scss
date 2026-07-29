@@ -8,8 +8,9 @@
 .sidebar .author__avatar img,
 .author__avatar img {
   width: 220px !important;
-  height: auto !important;
-  max-width: 220px !important;
+  height: 220px !important;
+  max-width: none !important;
   border-radius: 0 !important;
-  object-fit: cover;
+  object-fit: cover; !important;
+  object-position: center top !important;
 }
