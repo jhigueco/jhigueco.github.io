@@ -1,12 +1,15 @@
 ---
-# Only the main Sass file needs front matter
 ---
 
 @charset "utf-8";
 
 @import "minimal-mistakes";
 
+.sidebar .author__avatar img,
 .author__avatar img {
-  max-width: 220px;
-  border-radius: 0;
+  width: 220px !important;
+  height: 220px !important;
+  max-width: 220px !important;
+  border-radius: 0 !important;
+  object-fit: cover;
 }
