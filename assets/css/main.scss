@@ -5,12 +5,23 @@
 
 @import "minimal-mistakes";
 
+/* Mobile and tablet */
 .sidebar .author__avatar img,
 .author__avatar img {
-  width: 220px !important;
-  height: 220px !important;
-  max-width: none !important;
+  width: 110px !important;
+  height: 110px !important;
+  max-width: 110px !important;
   border-radius: 0 !important;
-  object-fit: cover; !important;
+  object-fit: cover !important;
   object-position: center top !important;
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .sidebar .author__avatar img,
+  .author__avatar img {
+    width: 220px !important;
+    height: 220px !important;
+    max-width: 220px !important;
+  }
 }
